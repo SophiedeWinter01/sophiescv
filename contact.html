@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Code used from skeleton:  -->
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Sophie's CV</title>
+  <meta name="description" content="Take a look at Sophie's CV, to see if we are a good fit!">
+  <meta name="author" content="Sophie de Winter">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="Images\pop_up.png">
+
+</head>
+
+<body>
+
+  <header>
+    <h1>Welcome to my CV!</h1>
+  </header>
+  <div class="container">
+    <div class="row">
+      <nav class="three columns " style="margin-top: 5%">
+        <ul>
+          <li><a href="index.html" class="button">About me</a></li>
+          <li><a href="skills.html" class="button">Skills</a></li>
+          <li><a href="contact.html" class="button">Contact me</a></li>
+        </ul>
+      </nav>
+
+      <!-- Code used from: https://www.w3schools.com/html/html_forms.asp  -->
+      <div class="two-thirds column" style="margin-top: 5%; margin-left: 10%">
+        <form onsubmit="validateForm()">
+          <label for="name">Name:</label><br>
+          <input type="text" id="name" name="name"><br>
+          <label for="email">E-mail address:</label><br>
+          <input type="text" id="email" name="email"><br><br>
+          <label for="problem" id="problem">What problem can I help you with?</label>
+
+          <label for="problem1"> Html,CSS and Javascript</label>
+          <input type="checkbox" id="problem1" name="problem1" value="website">
+
+          <label for="problem2"> Python</label>
+          <input type="checkbox" id="problem2" name="problem2" value="python">
+
+          <label for="problem3"> Databases</label>
+          <input type="checkbox" id="problem3" name="problem3" value="databases"> <br>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+  </div>
+  <footer class="sticky">
+    <h8>The current time and date is:</h8>
+    <h8 id="demo"></h8>
+    <br>
+    <h8>E-mail me with further questions: <a href="mailto:sophiedewinter@live.nl">Click here</a></h8>
+  </footer>
+</body>
+<script src="js_date.js"></script>
+<script src="javascript.js"></script>
+
+</html>
