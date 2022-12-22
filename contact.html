@@ -22,7 +22,7 @@
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="Images\pop_up.png">
+  <link rel="icon" type="image/png" href="Images\Logo.png">
 
 </head>
 
@@ -41,8 +41,8 @@
         </ul>
       </nav>
 
-      <!-- Code used from: https://www.w3schools.com/html/html_forms.asp  -->
-      <div class="two-thirds column" style="margin-top: 5%; margin-left: 10%">
+      <!-- Code used from: https://www.w3schools.com/html/html_forms.asp to make the form and using JavaScript to check the form. -->
+      <div class="five columns" style="margin-top: 5%; margin-left: 10%">
         <form onsubmit="validateForm()">
           <label for="name">Name:</label><br>
           <input type="text" id="name" name="name"><br>
@@ -61,16 +61,35 @@
           <input type="submit" value="Submit">
         </form>
       </div>
+<aside class="three columns">
+
+  <table>
+    <tr>
+      <td><img src="Images\website_1.png" alt="Score 4/5" class="pictures1"></td>
+      <td><img src="Images\Sophie1.jpg" alt="Score 4/5" class="pictures2"></td>
+    </tr>
+    <tr>
+      <td><img src="Images\Sophie2.jpg" alt="Score 4/5" class="pictures2"> </td>
+      <td><img src="Images\sky.jpg" alt="Score 4/5" class="pictures1"> </td>
+    </tr>
+  </table>
+</aside>
+
+
+
     </div>
   </div>
   <footer class="sticky">
+    <!-- Displaying the time and date of the refresh with JavaScript -->
     <h8>The current time and date is:</h8>
     <h8 id="demo"></h8>
     <br>
     <h8>E-mail me with further questions: <a href="mailto:sophiedewinter@live.nl">Click here</a></h8>
   </footer>
 </body>
+<!-- Linking the JavaScript code for the time and date in the footer -->
 <script src="js_date.js"></script>
+<!-- Linking the JavaScript for checking the form -->
 <script src="javascript.js"></script>
 
 </html>
